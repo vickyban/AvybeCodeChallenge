@@ -1,0 +1,32 @@
+.profile-screen {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2em 0;
+	background-color: #f1f5f8;
+}
+
+.profile-form {
+	width: 27em;
+	min-height: 70vh;
+	display: grid;
+	grid-template-rows: repeat(2, auto);
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 17px 20px;
+	position: relative;
+}
+
+.profile-form__avatar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile-form__form .btn {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 1em;
+}

@@ -1,0 +1,24 @@
+.home {
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #f1f5f8;
+}
+
+.home__profilelist {
+	width: 80%;
+	padding: 18px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.home__title {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 18px;
+	text-align: start;
+	color: #446a88;
+}

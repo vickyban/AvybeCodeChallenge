@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	font-size: 18px;
+	padding: 8px 20px;
+	border: 0;
+	background-color: #4dccbd;
+	color: #fff;
+	border-radius: 3px;
+	transition: all 250ms ease-in-out;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #06f;
+}
+.btn:focus {
+	outline: none;
+}
+.btn:disabled {
+	color: #a9a9a9;
+	background-color: #e0e0e0;
+}
+
+.btn.transparent {
+	color: #06f;
+	background-color: transparent;
+}
+
+.login-screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2em 0;
+}

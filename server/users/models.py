@@ -16,7 +16,7 @@ def upload_loaction(instance, filename, **kwargs):
 class UserProfile(models.Model):
   user = models.OneToOneField(User, on_delete=models.CASCADE, null=False, primary_key=True)
   nickname = models.CharField(max_length=100, null=True, blank=True)
-  avatar = models.ImageField(_('Image'),default='avatars/default.jpg', upload_to=upload_loaction)
+  avatar = models.ImageField(_('Image'),default='default.jpg', upload_to=upload_loaction)
 
   def __str__(self):
     return self.nickname

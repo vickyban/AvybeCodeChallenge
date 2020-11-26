@@ -39,7 +39,7 @@ After closing the app, run `docker-compose down` to close Docker
 # Quickstart in Development for React Native/Expo
 
 - Install Expo client app on mobile device 
-- Find your laptop's IP Address, copy and paste the address to API_HOSTNAME inside mobile/app.config.ts file 
+- Find your laptop's IP Address, copy and paste the address to `API_HOSTNAME` inside `mobile/app.config.ts` file 
 - Then run the following commads in mobile directory to start up Expo app
 
 ```

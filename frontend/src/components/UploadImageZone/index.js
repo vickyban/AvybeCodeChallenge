@@ -98,7 +98,6 @@ const UploadImageZone = ({ userId, initialImg }) => {
 					dispatch({ type: 'RESOLVE' });
 				})
 				.catch((res) => {
-					console.log(res);
 					dispatch({ type: 'REJECT', error: res.data });
 				});
 		}

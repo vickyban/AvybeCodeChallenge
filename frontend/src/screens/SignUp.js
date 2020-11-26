@@ -23,7 +23,6 @@ export default function SignInSide() {
 			dispatch(register(values))
 				.then(() => history.replace('/'))
 				.catch(({ response }) => {
-					console.log(response);
 					return {
 						[FORM_ERROR]: response.data,
 					};

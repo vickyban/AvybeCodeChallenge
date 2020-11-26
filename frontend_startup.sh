@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ./front_end
+cd ./frontend
 docker-compose up --build
